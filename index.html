@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Test Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+    .report {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #b30000;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #b30000;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <div class="report">
+    <h2>Blood Test Report</h2>
+    <p><b>Patient Name:</b> John Doe</p>
+    <p><b>Date:</b> 03-Sep-2025</p>
+
+    <table>
+      <tr>
+        <th>Test Name</th>
+        <th>Result</th>
+        <th>Normal Range</th>
+        <th>Units</th>
+      </tr>
+      <tr>
+        <td>Hemoglobin</td>
+        <td>13.5</td>
+        <td>13.0 - 17.0</td>
+        <td>g/dL</td>
+      </tr>
+      <tr>
+        <td>WBC Count</td>
+        <td>6,500</td>
+        <td>4,000 - 11,000</td>
+        <td>/µL</td>
+      </tr>
+      <tr>
+        <td>Blood Sugar (Fasting)</td>
+        <td>92</td>
+        <td>70 - 100</td>
+        <td>mg/dL</td>
+      </tr>
+      <tr>
+        <td>Cholesterol</td>
+        <td>180</td>
+        <td>&lt; 200</td>
+        <td>mg/dL</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
